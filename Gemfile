@@ -45,6 +45,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#Added as part of Heroku exercise
+gem 'unicorn', group: :production
+gem 'thin', group: :development
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
